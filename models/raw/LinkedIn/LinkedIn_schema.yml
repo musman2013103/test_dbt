@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: bq_ddm
+    database: datapilot-datadrivenmarketing
+    schema: LinkedInPage_dp
+    tables:
+      - name: FollowersFunction_LI_dp
+      - name: LifeTimeOrgStats_LI_dp
+      - name: ShareStats_LI_dp
+      - name: TimeBoundStats_LI_dp
+      - name: followersCount_LI_dp
+      - name: post_stats_LI_dp 
